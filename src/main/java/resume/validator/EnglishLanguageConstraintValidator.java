@@ -5,11 +5,6 @@ import javax.validation.ConstraintValidatorContext;
 
 import resume.annotation.constraints.EnglishLanguage;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public class EnglishLanguageConstraintValidator implements ConstraintValidator<EnglishLanguage, String>{
 	
 	private boolean withNumbers;

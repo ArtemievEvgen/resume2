@@ -8,11 +8,6 @@ import org.springframework.security.core.userdetails.User;
 import resume.Constants;
 import resume.entity.Profile;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public class CurrentProfile extends User {
 	private static final long serialVersionUID = 3850489832510630519L;
 	private final Long id;

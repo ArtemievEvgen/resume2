@@ -17,11 +17,6 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Configuration
 @PropertySource("classpath:application.properties")
 @EnableTransactionManagement

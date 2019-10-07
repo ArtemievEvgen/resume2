@@ -5,11 +5,6 @@ import org.springframework.data.domain.Pageable;
 
 import resume.entity.Profile;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public interface FindProfileService {
 
 	Profile findByUid(String uid);

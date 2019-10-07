@@ -18,11 +18,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import resume.annotation.constraints.EnglishLanguage;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Entity
 @Table(name="skill")
 public class Skill extends AbstractEntity<Long> implements Serializable, ProfileEntity {

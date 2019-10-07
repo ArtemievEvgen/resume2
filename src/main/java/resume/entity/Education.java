@@ -14,11 +14,6 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Entity
 @Table(name="education")
 public class Education extends AbstractEntity<Long> implements Serializable, ProfileEntity {

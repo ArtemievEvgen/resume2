@@ -9,11 +9,6 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import resume.entity.Profile;
 import resume.model.CurrentProfile;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public final class SecurityUtil {
 
 	public static CurrentProfile getCurrentProfile() {

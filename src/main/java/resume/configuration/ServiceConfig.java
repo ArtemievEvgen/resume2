@@ -9,11 +9,6 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Configuration
 @ComponentScan({ "resume.service.impl", 
 				 "resume.controller",

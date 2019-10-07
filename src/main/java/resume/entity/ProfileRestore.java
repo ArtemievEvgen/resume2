@@ -10,11 +10,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Entity
 @Table(name = "profile_restore")
 public class ProfileRestore extends AbstractEntity<Long> implements Serializable {

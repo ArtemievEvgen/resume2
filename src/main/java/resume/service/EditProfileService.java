@@ -7,11 +7,6 @@ import resume.entity.Skill;
 import resume.entity.SkillCategory;
 import resume.form.SignUpForm;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public interface EditProfileService {
 
 	Profile createNewProfile(SignUpForm signUpForm);

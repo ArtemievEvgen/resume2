@@ -16,11 +16,6 @@ import org.springframework.security.web.authentication.rememberme.PersistentToke
 
 import resume.Constants;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	

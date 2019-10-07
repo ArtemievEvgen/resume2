@@ -23,11 +23,6 @@ import org.springframework.web.servlet.DispatcherServlet;
 import resume.filter.ResumeFilter;
 import resume.listener.ApplicationListener;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public class ResumeWebApplicationInitializer implements WebApplicationInitializer {
 
 	@Override

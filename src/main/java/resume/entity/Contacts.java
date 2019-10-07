@@ -7,11 +7,6 @@ import javax.persistence.AccessType;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Embeddable
 @Access(AccessType.FIELD)
 public class Contacts implements Serializable {

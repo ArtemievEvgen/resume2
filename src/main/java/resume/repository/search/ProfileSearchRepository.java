@@ -6,11 +6,6 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 
 import resume.entity.Profile;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public interface ProfileSearchRepository extends ElasticsearchRepository<Profile, Long> {
 
 	/**

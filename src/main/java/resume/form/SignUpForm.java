@@ -9,11 +9,6 @@ import resume.annotation.constraints.EnglishLanguage;
 import resume.annotation.constraints.FieldMatch;
 import resume.annotation.constraints.PasswordStrength;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @FieldMatch(first = "password", second = "confirmPassword", message = "The password fields must match")
 public class SignUpForm implements Serializable {
 	private static final long serialVersionUID = 185151345117447819L;

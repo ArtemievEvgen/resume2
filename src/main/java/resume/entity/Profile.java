@@ -24,11 +24,6 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Entity
 @Table(name = "profile")
 @Document(indexName="profile")

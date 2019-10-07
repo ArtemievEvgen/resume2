@@ -11,12 +11,6 @@ import java.lang.annotation.Target;
 import javax.validation.Constraint;
 import javax.validation.Payload;
 
-/**
- * 
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Target({ TYPE, ANNOTATION_TYPE })
 @Retention(RUNTIME)
 @Constraint(validatedBy = {})

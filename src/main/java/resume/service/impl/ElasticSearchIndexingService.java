@@ -13,11 +13,6 @@ import resume.entity.Profile;
 import resume.repository.search.ProfileSearchRepository;
 import resume.service.FindProfileService;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Service
 public class ElasticSearchIndexingService {
 	private static final Logger LOGGER = LoggerFactory.getLogger(ElasticSearchIndexingService.class);

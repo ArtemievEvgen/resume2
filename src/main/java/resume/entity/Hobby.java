@@ -14,11 +14,6 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Entity
 @Table(name="hobby")
 public class Hobby extends AbstractEntity<Long> implements Serializable, Comparable<Hobby>, ProfileEntity {

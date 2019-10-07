@@ -37,13 +37,6 @@ import net.coobird.thumbnailator.Thumbnails;
 import resume.model.LanguageLevel;
 import resume.model.LanguageType;
 
-/**
- * 
- * Please add postgresql JDBC driver to classpath before launch this generator
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public class TestDataGenerator {
 
 	// JDBC setting for database
@@ -515,11 +508,6 @@ public class TestDataGenerator {
 		return skills;
 	}
 
-	/**
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
 	private static final class ProfileConfig {
 		private final String objective;
 		private final String summary;
@@ -535,11 +523,6 @@ public class TestDataGenerator {
 		}
 	}
 
-	/**
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
 	private static final class Profile {
 		private final String firstName;
 		private final String lastName;
@@ -558,11 +541,6 @@ public class TestDataGenerator {
 		}
 	}
 
-	/**
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
 	private static final class Certificate {
 		private final String name;
 		private final String largeImg;
@@ -574,11 +552,6 @@ public class TestDataGenerator {
 		}
 	}
 
-	/**
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
 	private static final class Course {
 		private final String name;
 		private final String company;

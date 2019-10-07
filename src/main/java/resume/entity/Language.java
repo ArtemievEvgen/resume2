@@ -20,11 +20,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import resume.model.LanguageLevel;
 import resume.model.LanguageType;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Entity
 @Table(name="language")
 public class Language extends AbstractEntity<Long> implements Serializable, ProfileEntity {

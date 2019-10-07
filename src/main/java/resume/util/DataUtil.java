@@ -6,11 +6,6 @@ import org.apache.commons.lang.WordUtils;
 
 import resume.form.SignUpForm;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public class DataUtil {
 
 	public static String normalizeName(String name) {

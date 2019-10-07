@@ -16,11 +16,6 @@ import org.springframework.transaction.annotation.Transactional;
 import resume.entity.Profile;
 import resume.repository.storage.ProfileRepository;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Service
 @Scope(proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class RemoveNotCompletedProfileService {

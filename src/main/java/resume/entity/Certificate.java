@@ -15,11 +15,6 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Entity
 @Table(name="certificate")
 public class Certificate extends AbstractEntity<Long> implements Serializable, ProfileEntity {

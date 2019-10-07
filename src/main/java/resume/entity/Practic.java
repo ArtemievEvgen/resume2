@@ -19,11 +19,6 @@ import org.joda.time.DateTime;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @Entity
 @Table(name = "practic")
 public class Practic extends AbstractFinishDateEntity<Long> implements Serializable, ProfileEntity {

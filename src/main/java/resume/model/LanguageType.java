@@ -3,11 +3,6 @@ package resume.model;
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public enum LanguageType {
 
 	ALL,

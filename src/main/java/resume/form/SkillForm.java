@@ -8,11 +8,6 @@ import javax.validation.Valid;
 
 import resume.entity.Skill;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public class SkillForm implements Serializable {
 	private static final long serialVersionUID = 4135568197764740034L;
 	@Valid
